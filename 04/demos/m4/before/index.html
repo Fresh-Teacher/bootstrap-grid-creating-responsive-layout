@@ -23,7 +23,7 @@
     #mainheader {
       background-color: #a593c2;
     }
-
+/*
     nav {
       height: 60px;
       width: 1000px;
@@ -48,7 +48,7 @@
       padding: 16px;
       text-decoration: none;
       font-weight: bold;
-    }
+    } */
 
     /* #leftmenu {
       float: left;
@@ -77,12 +77,12 @@
 
 <body>
   <header id="mainheader">
-    <nav>
-      <ul>
-        <li><img src="images/cake.svg" height="55" /></li>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="pieoverview.html">All pies</a></li>
-        <li><a href="about.html">About</a></li>
+    <nav >
+      <ul class="list-unstyled d-flex flex-column flex-sm-row justify-content-start align-items-stretch">
+        <li class="flex-fill"><img src="images/cake.svg" height="75" /></li>
+        <li class="flex-fill"><a href="index.html" class="btn bg-light m-2">Home</a></li>
+        <li class="flex-fill"><a href="pieoverview.html" class="btn bg-light m-2">All pies</a></li>
+        <li class="flex-fill"><a href="about.html" class="btn bg-light m-2">About</a></li>
       </ul>
     </nav>
   </header>
